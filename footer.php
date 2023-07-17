@@ -32,24 +32,38 @@
 
       <div class="col-lg-2 col-md-6 footer-links">
         <h4>Полезные ссылки</h4>
-        <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Главная</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">О нас</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Услуги</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Условия использования</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Политика конфиденциальности</a></li>
-        </ul>
+        <?php
+                    wp_nav_menu(
+                        array(
+                            'theme_location' => 'secondary',
+                            //as registered in function.php
+                            'depth' => 1,
+                            'container' => 'div', //html wrapper of the menu ul
+                            'container_class' => 'col-lg-2 col-md-6 footer-links',
+                            'menu' => 'ul',
+                            'before' => '<i class="bx bx-chevron-right"></i>',
+                            'fallback_cb' => false
+
+                        ))
+                        ?>
       </div>
 
       <div class="col-lg-2 col-md-6 footer-links">
         <h4>Наши услуги</h4>
-        <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Веб-дизайн</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Веб-разработка</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Управление продуктом</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Маркетинг</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Графический дизайн</a></li>
-        </ul>
+        <?php
+                    wp_nav_menu(
+                        array(
+                            'theme_location' => 'services',
+                            //as registered in function.php
+                            'depth' => 1,
+                            'container' => 'div', //html wrapper of the menu ul
+                            'container_class' => 'col-lg-2 col-md-6 footer-links',
+                            'menu' => 'ul',
+                            'before' => '<i class="bx bx-chevron-right"></i>',
+                            'fallback_cb' => false
+
+                        ))
+                        ?>
       </div>
 
       <div class="col-lg-4 col-md-6 footer-newsletter">
