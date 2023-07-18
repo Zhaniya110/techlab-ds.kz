@@ -1663,3 +1663,55 @@ section {
 a{
   color: #343a40;
 }
+
+
+.hidden.hubspot-link__container.sproket {
+  display: none;
+}
+
+input.hs-button.primary.large {
+  background-color: black;
+  border: solid 2px black;
+  border-radius: 20px;
+}
+
+#hsForm_2911286e-db94-4efa-b1cd-ce0aae24d151 label{
+  display:none;
+}
+
+
+
+
+ 
+@media only screen and (max-width: 553px) {
+  .card{
+      margin-top: 25px;
+  }
+}
+.card{
+  border: none;
+
+ box-shadow: 0px 1px 2px rgba(187, 187, 187, 0.3);
+ 
+}
+hr, .card{
+  border: solid 1px rgb(201, 201, 201);
+}
+
+.header{
+  border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.signup-btn{
+  width: 100%;
+  padding: 1rem;
+  text-transform: uppercase;
+  background-color: rgb(17, 155, 17);
+  color: aliceblue;
+  border: none;
+}
+
+.back{
+  border: none;
+  background-color: none;
+}

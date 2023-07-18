@@ -1,0 +1,100 @@
+<?php get_header(); ?>
+
+    <div class="container pt-5" style="margin-top:100px; margin-bottom:100px;">
+      <div class="row product row-gap-5">
+        <!-- карточка курса/абонемента -->
+        <div class="col-md-4">
+          <a href="arduino-single.html" class="link-underline link-underline-opacity-0">
+            <div class="card">
+              <div class="card-body">
+                <h5>ARDUINO: Lite(4x/в месяц)</h5>
+              </div>
+              <hr />
+              <div class="card-body">
+                <p>Цена: 5000тенге</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+            <!-- карточка курса/абонемента -->
+            <div class="col-md-4">
+                <a href="arduino-single.html" class="link-underline link-underline-opacity-0">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5>ARDUINO: Lite(4x/в месяц)</h5>
+                    </div>
+                    <hr />
+                    <div class="card-body">
+                      <p>Цена: 5000тенге</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+
+                  <!-- карточка курса/абонемента -->
+        <div class="col-md-4">
+            <a href="arduino-single.html" class="link-underline link-underline-opacity-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5>ARDUINO: Lite(4x/в месяц)</h5>
+                </div>
+                <hr />
+                <div class="card-body">
+                  <p>Цена: 5000тенге</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+
+              <!-- карточка курса/абонемента -->
+        <div class="col-md-4">
+            <a href="arduino-single.html" class="link-underline link-underline-opacity-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5>ARDUINO: Lite(4x/в месяц)</h5>
+                </div>
+                <hr />
+                <div class="card-body">
+                  <p>Цена: 5000тенге</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+
+              <!-- карточка курса/абонемента -->
+        <div class="col-md-4">
+            <a href="arduino-single.html" class="link-underline link-underline-opacity-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5>ARDUINO: Lite(4x/в месяц)</h5>
+                </div>
+                <hr />
+                <div class="card-body">
+                  <p>Цена: 5000тенге</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+
+              <!-- карточка курса/абонемента -->
+        <div class="col-md-4">
+            <a href="" class="link-underline link-underline-opacity-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5>ARDUINO: Lite(4x/в месяц)</h5>
+                </div>
+                <hr />
+                <div class="card-body">
+                  <p>Цена: 5000тенге</p>
+                </div>
+              </div>
+            </a>
+          </div>
+      </div>
+    </div>
+    <?php get_footer(); ?>
