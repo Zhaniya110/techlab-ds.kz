@@ -43,7 +43,13 @@
         ?>
     <i class="bi bi-list mobile-nav-toggle"></i>
   </nav>
-
+  <?php global $woocommerce; ?>
+<a href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('View your shopping cart', 'woothemes'); ?>" class="cart">
+  <button type="button" class="btn btn-dark">
+  <i class="bi bi-bag"></i> <span class="badge badge-light"><?php echo WC()->cart->get_cart_contents_count() ?></span>
+  
+</button> 
+        </a>
     </div>
   </header><!-- End Header -->
 
